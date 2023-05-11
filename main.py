@@ -38,7 +38,7 @@ while True:
     if status_list[0] == 1 and status_list[1] == 1:
         send_email()
 
-    cv2.imshow("Video",frame)
+    cv2.imshow("Video", frame)
     key = cv2.waitKey(1)
 
     if key == ord("q"):
