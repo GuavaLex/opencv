@@ -21,6 +21,3 @@ def send_email(image_path):
         gmail.quit()
 
 
-if __name__ = "__main__":
-    send_email(image_path=)
-
